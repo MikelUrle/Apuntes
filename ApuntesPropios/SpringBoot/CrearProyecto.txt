@@ -1,0 +1,24 @@
+Descargar eclipse para Spring Boot
+- https://spring.io/tools
+
+Crear Spring Starter Proyect
+
+Java version 17
+Packagin Jar
+Group: com.mikel
+Package: com.mikel
+
+Librerias
+- Spring Boot DevTolls
+- Spring Data JPA
+- MySQL Driver
+- Thymeleafe
+- Spring Web
+
+Estructura de Carpetas
+
+com.mikel
+com.mikel.controller
+com.mikel.model
+com.mikel.repository
+com.mikel.service
