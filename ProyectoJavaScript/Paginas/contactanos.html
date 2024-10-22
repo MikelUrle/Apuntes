@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../script.js"></script>
+    <title>Pagina De Contratacion</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+
+    <div id="formulario" class="container mt-5">
+        <h1 class="formularioTexto">Contacta con Nosotros</h1>
+        <form id="contactForm">
+            <div class="formularioSeparacion">
+                <label for="name" class="form-label formularioTexto">Nombre</label>
+                <input type="text" class="form-control " id="name" name="name" required>
+            </div>
+            <div class="formularioSeparacion">
+                <label for="email" class="form-label formularioTexto">Correo Electrónico</label>
+                <input type="email" class="form-control " id="email" name="email" required>
+            </div>
+            <div class="formularioSeparacion">
+                <label for="subject" class="form-label formularioTexto">Asunto</label>
+                <input type="text" class="form-control " id="subject" name="subject" required>
+            </div>
+            <div class="formularioSeparacion">
+                <label for="message" class="form-label formularioTexto">Mensaje</label>
+                <textarea class="form-control " id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary formularioSeparacion">Enviar</button>
+        </form>
+    </div>
+
+
+    <div id="formResponse">
+
+    </div>
+
+
+    <div id="menu">
+        <div class="menu-contenedor">
+            <div class="menu" onmouseover="abrirMenu()" onmouseout="cerrarMenu()">
+            <ul class="menu-items">
+                <a href="../index.html">
+                    <li>
+                        <img src="../Imagenes/Home.png" alt="Menu Icon" class="menu-icon">
+                        <span class="menu-text" style="margin-left: 7%;"><b>Home</b></span>
+                    </li>
+                </a>
+                <a href="informatica.html">
+                    <li>
+                        <img src="../Imagenes/Informatica.png" alt="Image 1" class="menu-icon">
+                        <span class="menu-text" style="margin-left: 5%;"><b>Informatica</b></span>
+                    </li>
+                </a>
+                <a href="marketing.html">
+                    <li>
+                        <img src="../Imagenes/Marketing.png" alt="Image 2" class="menu-icon">
+                        <span class="menu-text" style="margin-left: 5%;"><b>Marketing</b></span>
+                    </li>
+                </a>
+                <a href="comerciales.html">
+                    <li>
+                        <img src="../Imagenes/Comerciales.png" alt="Image 3" class="menu-icon">
+                        <span class="menu-text" style="margin-left: 5%;"><b>Comerciales</b></span>
+                    </li>
+                </a>
+                <a href="electricista.html">
+                    <li>
+                        <img src="../Imagenes/electricista.png" alt="Image 3" class="menu-icon">
+                        <span class="menu-text" style="margin-left: 5%;"><b>Electricista</b></span>
+                    </li>
+                </a>
+                <a href="fontanero.html">
+                    <li>
+                        <img src="../Imagenes/fontanero.png" alt="Image 3" class="menu-icon">
+                        <span class="menu-text" style="margin-left: 5%;"><b>Fontanero</b></span>
+                    </li>
+                </a>
+                <a href="recepcionista.html">
+                    <li>
+                        <img src="../Imagenes/recepcionista.png" alt="Image 3" class="menu-icon">
+                        <span class="menu-text" style="margin-left: 5%;"><b>Recepcionista</b></span>
+                    </li>
+                </a>
+                <a href="limpiador.html">
+                    <li>
+                        <img src="../Imagenes/limpiador.png" alt="Image 3" class="menu-icon">
+                        <span class="menu-text" style="margin-left: 5%;"><b>Limpiador</b></span>
+                </li>
+                </a>
+                <a href="contactanos.html">
+                    <li>
+                        <img src="../Imagenes/Contacto.png" alt="Image 3" class="menu-icon">
+                        <span class="menu-text" style="margin-left: 5%;"><b>Contactanos</b></span>
+                    </li>
+                </a>
+            </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

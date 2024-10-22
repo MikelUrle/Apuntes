@@ -1,0 +1,37 @@
+# CREACION DEL PROYECTO
+
+1. Creamos un proyecto "Dynamic Web Project"
+
+2. Asignamos un servidor Apache Tomcat y un nombre al proyecto
+
+3. Creamos la estructura de paquetes diferenciando /principal/modelos/modelo.dto/controladores
+
+4. Convertimos el proyecto en Maven, clic derecho, Configure, Convert to Maven Proyect
+
+5. Despues iremos al "pom" y sumaremos las siguientes lineas para añadir las librerias de "mysql" (la version se puede cambiar)
+
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+	<dependency>
+	    <groupId>mysql</groupId>
+	    <artifactId>mysql-connector-java</artifactId>
+	    <version>8.0.28</version>
+	</dependency>
+  </dependencies>
+
+# BASE DE DATOS
+
+1. Creamos la base de datos en el WORKBENCH (las tablas y los stored procedures hay que crearlos a mano)
+
+2. Dentro de la carpeta de "modelos", copiaremos los archivos de "DB_Essential", "Metodos_Interfaz", "Rutas_Conexion" y editaremos su contenido
+
+3. Dentro de la carpeta "modelo.dto", crearemos el objeto, de ejemplo esta "Proyecto"
+
+# INICIAR PROYECTO
+
+1. Dentro de la carpeta "principal", tendremos que crear el primer controlador, el controlador que leera como primero al iniciar el proyecto
+
+2. Dentro de "Ejemplos" esta el archivo "Inicio" que es un Servlet de ejemplo con la llamada a la db, recogida de datos, preparacion de mochila para el front y llamada al front
+
+3. Tendremos que crear un archivo ".jsp" para usarla como pagina principal, de ejemplo esta "PaginaInicio"
+

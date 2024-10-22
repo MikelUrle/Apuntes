@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+
+  <!-- La parte del del head del HTML -->
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Web de Mikel</title>
+
+    <!-- Los links para implementar Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+  <body>
+
+    <!-- La parte del body del HTML -->
+
+    <div class="floating-menu">
+      <ul>
+          <li><a href="#titulo">Inicio</a></li>
+          <li><a href="#middle">Middle</a></li>
+          <li><a href="#accordionMiddle">MiddleExplain</a></li>
+          <li><a href="#footer">Footer</a></li>
+      </ul>
+    </div>
+    <section id="titulo">
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col">
+          <img height="220vh" src="Imagenes/Smiley-removebg-preview.png">
+        </div>
+        <div class="col">
+          <h1 id="titulo-texto">LA WEB DE MIKEL</h1>
+        </div>
+      </div>
+    </div>
+    </section>
+    
+    <section id="blackhr"></section>
+
+    <section id="fondo-middle">
+      <section id="textoDescr">
+        <h1>Buenos días</h1>
+        <h2>Mi nombre es Mikel y esta en mi Web</h2>
+        <hr style="margin-bottom: 3%;">
+
+        <div class="container text-center">
+          <div class="row align-items-start">
+            <div class="col">
+              <p style="margin-top: 5%;margin-bottom: 3%;">Para la creacion de esta Web, se han utilizado las modernas herramientas de:</p>
+                  <button type="button" class="btn btn-outline-primary btn-lg"><a href="https://es.wikipedia.org/wiki/HTML5">HTML 5</a></button>
+                  <button type="button" class="btn btn-outline-primary btn-lg"><a href="https://es.wikipedia.org/wiki/CSS">CSS 3</a></button>
+                  <button type="button" class="btn btn-outline-primary btn-lg"><a href="https://getbootstrap.com/">Bootstrap</a></button>
+            </div>
+            <div class="col">
+              <img src="Imagenes/f5baef4b6b6677020ab8d091ef78a3bc_w200.gif" alt="Descripción del GIF" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="middle">
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Imagenes/article_02174_.webp"  height="600vh" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Imagenes/CSS.webp"  height="600vh" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Imagenes/bootstrap-icons.png"  height="600vh" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+
+      <!-- Seccion del acordeon de la parte central -->
+
+
+      <section id="accordionMiddle">
+
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                <p class="letrasAcordeon">HTML 5</p>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                <strong style="font-size: 150%;">HTML5</strong>
+                <p>Es la quinta revisión importante del lenguaje básico de la World Wide Web, HTML. HTML5 específica dos variantes de sintaxis para HTML: una «clásica», HTML, y una variante XHTML conocida como sintaxis XHTML5 que deberá servirse con sintaxis XML</p> 
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                <p class="letrasAcordeon">CSS 3</p>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <strong style="font-size: 150%;">CSS 3</strong>
+                <p>Es una tecnología que ha tenido una evolución en el tiempo, que actualmente se encuentra en su versión 3, como su propio nombre indica.
+
+                  Sus siglas corresponden a “Cascading Style Sheets”, que tiene el siguiente significado:</p>
+                <lu>
+                  <li>
+                    Cascading, que significa que los estilos que aplicamos a los elementos de una página web se propagan a los elementos que contiene, se propagan en cascada.
+                  </li>
+                  <li>
+                    Style, porque mediante CSS lo que hacemos es aplicar estilos visuales a los distintos elementos de nuestra página web.
+                  </li>
+                  <li>
+                    Sheets, que significa hojas, porque los estilos de una página web se añaden en ficheros aparte, en ficheros con la extensión .css de manera general.
+                  </li>
+                </lu>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                <p class="letrasAcordeon">Bootstrap</p>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <strong style="font-size: 150%;">Bootstrap</strong>
+                <p>Es un framework multiplataforma o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="footer" style="margin-top: 5%; text-align: center;">
+        <div class="spinner-border text-primary final" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-secondary final" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-success final" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-danger final" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-warning final" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-info final" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-dark final" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        
+        <br>
+
+        <div class="spinner-grow text-primary final" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-secondary final" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-success final" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-danger final" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-warning final" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-info final" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-dark final" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </section>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

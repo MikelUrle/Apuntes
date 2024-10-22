@@ -1,0 +1,115 @@
+package paquete.modelos;
+
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.sql.CallableStatement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import paquete.modelo.dto.Proyecto;
+
+
+public class DB_Essential implements Metodos_interfaz, Rutas_conexion{
+	
+	// Funcion para crear la conexion a la base de datos
+	@Override
+	public Connection conectar() {
+		
+		
+		Connection con = null;
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/prueba","root","1234");
+			System.out.println("DB conectada");
+		} catch (ClassNotFoundException e) {
+			System.out.println("ERROR DE DB");
+			System.out.println("No se encontro el driver");
+			System.out.println(e.getMessage());
+		} catch (SQLException e) {
+			System.out.println("ERROR DE DB");
+			System.out.println("No se pudo conectar a la base de datos");
+			System.out.println(e.getMessage());
+		} catch (Exception e) {
+			System.out.println("ERROR DE DB");
+			System.out.println("Error desconocido");
+			System.out.println(e.getMessage());
+		}
+		
+		return con;
+		
+	}
+	
+	// Funcion para desconectarse de la base de datos
+	@Override
+	public void desconectar (Connection con) {
+		
+		try {
+			con.close();
+			System.out.println("DB desconectada");
+		} catch (SQLException e) {
+			System.out.println("ERROR DE DB");
+			System.out.println("No se pudo desconectar de la base de datos");
+			System.out.println(e.getMessage());
+		} catch (Exception e) {
+			System.out.println("ERROR DE DB");
+			System.out.println("Error desconocido");
+			System.out.println(e.getMessage());
+		}
+		
+	}
+
+	// Funcion para obtener todos los proyectos
+	@Override
+	public List<Proyecto> obtenerTodosProyectos(Connection con) {
+		   
+		List<Proyecto> lista = new ArrayList<Proyecto>();
+		
+		try {
+			CallableStatement cStmt = con.prepareCall(SP_OBTENER_INFO);
+			
+			boolean tieneSlect = cStmt.execute();
+			
+			if (tieneSlect == true) {
+			
+				ResultSet rs = cStmt.getResultSet();
+				// Se recogen los datos y se guardan en un objeto "Proyecto"
+				while(rs.next()) {
+					
+					Proyecto proyecto = new Proyecto();
+					
+					proyecto.setId(rs.getInt(PRODUCTOS_ID));
+					proyecto.setTexto(rs.getString(PROYECTO_TEXTO));
+					proyecto.setNombre(rs.getString(PROYECTO_NOMBRE));
+					
+					// El objeto lo guardamos en una lista
+					lista.add(proyecto);
+				}
+				
+				return lista;
+				
+			} else {
+				
+				System.out.println("No se obtubo una Lista de productos");
+				System.out.println("El stored procedure no tiene un RESULTSET");
+				return new ArrayList<Proyecto>();
+			}
+			
+		} catch (SQLException e) {
+
+			System.out.println("ERROR DE DB: CONSULTA");
+			System.out.println("Error al obtener la lista de todos los productos");
+			System.out.println(e.getMessage());
+			
+			return new ArrayList<Proyecto>();
+		}
+		
+	}
+	
+	 
+}
+

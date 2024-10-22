@@ -1,0 +1,17 @@
+package paquete.modelos;
+
+import java.sql.Connection;
+import java.util.List;
+
+
+import paquete.modelo.dto.Proyecto;
+
+public interface Metodos_interfaz {
+	
+	public Connection conectar();
+
+	void desconectar(Connection con);
+
+	List<Proyecto> obtenerTodosProyectos(Connection con);
+
+}

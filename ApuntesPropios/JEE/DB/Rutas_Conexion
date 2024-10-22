@@ -1,0 +1,37 @@
+package paquete.modelos;
+
+public interface Rutas_conexion {
+
+	// Constantes de DB
+	
+	String BASE_DATOS = "prueba";
+	String DRIVER = "com.mysql.jdbc.Driver";
+	String CONEXION = "jdbc:mysql://localhost:3306/"+BASE_DATOS;
+	String USUARIO = "root";
+	String PASS = "1234";
+	
+	// Archivos JSP
+	
+	String JSP_PROYECTOS_INICIO="PaginaInicio.jsp";
+	
+	// Tablas de la DB
+	
+	String PRODUCTOS_ID = "id";
+	
+	String PROYECTO_ID = "id";
+	String PROYECTO_TEXTO = "texto";
+	String PROYECTO_CREADOR = "creador";
+	String PROYECTO_IMAGEN = "imagen";
+	String PROYECTO_NOMBRE = "nombre";
+	
+	
+	// Stored Procedures
+	
+	String SP_OBTENER_INFO = "call prueba.obtenerInfo();";
+	
+	// Atributos de la mochila
+	
+	String ATR_LISTA_PROYECTOS = "atr_lista_proyectos";
+
+	
+}

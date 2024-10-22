@@ -1,0 +1,39 @@
+@WebServlet("/Inicio")
+public class Inicio extends HttpServlet implements Rutas_conexion{
+	private static final long serialVersionUID = 1L;
+       
+
+    public Inicio() {
+        super();
+
+    }
+
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+		// Conexion a la base de datos		
+		DB_Essential db = new DB_Essential();
+		Connection con = db.conectar();
+		
+		// Creacion de las listas para guardar los datos sacados de la base de datos
+		List<Proyecto> listaProyecto = db.obtenerTodosProyectos(con);
+		
+		System.out.println(listaProyecto);
+		
+		// Desconectamos la base de datos
+		db.desconectar(con);
+		
+		// Preparamos las mochilas para llevar los datos al front
+		request.setAttribute(ATR_LISTA_PROYECTOS, listaProyecto);
+		
+		// Llamamos a proyectos_usuario.jsp
+		 request.getRequestDispatcher(JSP_PROYECTOS_INICIO).forward(request, response);
+	}
+
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+		doGet(request, response);
+	}
+
+}
