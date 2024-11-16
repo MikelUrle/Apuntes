@@ -22,3 +22,8 @@ com.mikel.controller
 com.mikel.model
 com.mikel.repository
 com.mikel.service
+
+Dentro de static
+
+styles
+images
