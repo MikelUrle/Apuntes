@@ -1,0 +1,59 @@
+1. Conceptos Básicos
+Antes de invertir tiempo o dinero, es importante comprender los fundamentos:
+
+Blockchain: Aprende cómo funciona la tecnología detrás de las criptomonedas.
+Bitcoin y Altcoins: Familiarízate con Bitcoin (BTC) y otras criptomonedas como Ethereum (ETH), Cardano (ADA), Solana (SOL), entre otras.
+Tokens vs Monedas: Entiende la diferencia entre una criptomoneda (como Bitcoin) y un token (como los de proyectos basados en Ethereum).
+Criptografía y Descentralización: Investiga cómo la criptografía asegura las transacciones y cómo la descentralización es un pilar clave.
+Recursos iniciales:
+
+Canales educativos en YouTube: Andreas M. Antonopoulos es una gran opción.
+Libros: Mastering Bitcoin de Andreas Antonopoulos.
+Cursos básicos en plataformas como Coursera o Binance Academy.
+
+2. Wallets y Seguridad
+La seguridad es crítica en el mundo cripto. Aprende sobre:
+
+Tipos de Wallets:
+Hot Wallets (conexión a internet) como MetaMask o Trust Wallet.
+Cold Wallets (sin conexión a internet) como Ledger o Trezor.
+Frases semilla: Nunca las compartas ni las guardes online.
+Buenas prácticas de seguridad: Uso de autenticación 2FA, cuidado con estafas (phishing) y elección de plataformas seguras.
+
+3. Investigación de Proyectos
+Whitepapers: Analiza documentos técnicos para entender la utilidad del proyecto.
+Casos de Uso: ¿Qué problema resuelve esta criptomoneda o token? Ejemplos: Ethereum (contratos inteligentes), Chainlink (oráculos), etc.
+Equipo y Comunidad: Evalúa quiénes están detrás y la calidad de su comunidad.
+
+4. Trading e Inversiones
+Conceptos Financieros Básicos:
+Qué es un exchange (Binance, Coinbase, Kraken).
+Diferencias entre spot, futuros y staking.
+Riesgos de volatilidad.
+Estrategias de Inversión:
+Dollar-Cost Averaging (DCA): Inversiones periódicas pequeñas.
+Diversificación: No pongas todo en una sola criptomoneda.
+Aprender análisis técnico (gráficos y tendencias) y análisis fundamental.
+Herramientas Útiles:
+CoinMarketCap o CoinGecko para seguimiento de precios y datos de mercado.
+
+5. DeFi y NFTs
+Finanzas Descentralizadas (DeFi):
+Protocolos como Uniswap, Aave y Curve.
+Cómo funcionan préstamos, yield farming y pools de liquidez.
+NFTs: Aprende qué son, su relación con el arte digital y casos de uso más amplios.
+
+6. Regulación y Fiscalidad
+Investiga las leyes de tu país sobre criptomonedas.
+Comprende cómo declarar impuestos sobre ganancias de capital o inversiones en criptoactivos.
+
+7. Comunidades y Foros
+Únete a comunidades para aprender de otros y estar al día:
+
+Reddit: Subreddits como r/CryptoCurrency o r/Bitcoin.
+Twitter (CryptoTwitter): Sigue a analistas y proyectos confiables.
+Discord y Telegram: Grupos de proyectos específicos.
+
+8. Prueba Práctica
+Empieza con pequeñas inversiones para entender cómo funcionan las transacciones.
+Experimenta con una red de prueba (testnet) para interactuar con wallets y protocolos sin riesgo.

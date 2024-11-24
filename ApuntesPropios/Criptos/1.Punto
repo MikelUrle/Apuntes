@@ -1,0 +1,37 @@
+##Blockchain
+-Es un libro de contabilidad compartido e inmutable que facilita el proceso de registro de transacciones y seguimiento de activos en una red empresarial.
+
+##Elementos clave de un blockchain
+
+//Tecnología de contabilidad distribuida
+Todos los participantes de la red tienen acceso al libro de contabilidad distribuido y a su registro inmutable de transacciones. 
+Con este libro de contabilidad compartido, las transacciones se registran una sola vez, lo que elimina la duplicación de esfuerzos típica de las redes empresariales tradicionales.
+
+
+//Registros inmutables
+Ningún participante puede cambiar o alterar una transacción después de que se haya registrado en el libro de contabilidad compartido. 
+Si un registro de transacción incluye un error, se debe agregar una nueva transacción para revertir el error y ambas transacciones serán visibles.
+
+//Contratos inteligentes
+Para acelerar las transacciones, un conjunto de reglas que se denominan contratos inteligentes se almacena en el blockchain y se ejecuta automáticamente. 
+Un contrato inteligente define las condiciones para las transferencias de bonos corporativos, incluye los términos para el pago del seguro de viaje y mucho más.
+
+
+##Cómo funciona blockchain
+
+Cuando se produce cada transacción, se registra como un "bloque" de datos
+Esas transacciones muestran el movimiento de un activo que puede ser tangible (un producto) o intangible (intelectual). 
+El bloque de datos puede registrar la información de su elección: quién, qué, cuándo, dónde, cuánto. 
+Incluso puede registrar la condición, como la temperatura de un envío de alimentos.
+
+
+Cada bloque está conectado a los bloques anteriores y posteriores
+Estos bloques forman una cadena de datos a medida que un activo se desplaza de un lugar a otro o su propiedad cambia de manos. 
+Los bloques confirman la hora exacta y la secuencia de las transacciones, y los bloques se enlazan entre sí de forma segura para evitar que se altere cualquier bloque o que se inserte un bloque entre dos bloques existentes.
+
+
+Las transacciones se bloquean juntas en una cadena irreversible: un blockchain
+Cada bloque adicional refuerza la verificación del bloque anterior y, por lo tanto, de todo el blockchain. 
+El blockchain es inviolable, lo que le confiere la fuerza clave de la inmutabilidad. 
+Se elimina la posibilidad de manipulación por parte de un actor malintencionado y se crea un libro de transacciones en el que usted y los demás miembros de la red pueden confiar.
+
