@@ -1,7 +1,10 @@
 ##Blockchain
+
 -Es un libro de contabilidad compartido e inmutable que facilita el proceso de registro de transacciones y seguimiento de activos en una red empresarial.
 
+
 ##Elementos clave de un blockchain
+
 
 //Tecnología de contabilidad distribuida
 Todos los participantes de la red tienen acceso al libro de contabilidad distribuido y a su registro inmutable de transacciones. 
@@ -11,6 +14,7 @@ Con este libro de contabilidad compartido, las transacciones se registran una so
 //Registros inmutables
 Ningún participante puede cambiar o alterar una transacción después de que se haya registrado en el libro de contabilidad compartido. 
 Si un registro de transacción incluye un error, se debe agregar una nueva transacción para revertir el error y ambas transacciones serán visibles.
+
 
 //Contratos inteligentes
 Para acelerar las transacciones, un conjunto de reglas que se denominan contratos inteligentes se almacena en el blockchain y se ejecuta automáticamente. 
@@ -35,3 +39,31 @@ Cada bloque adicional refuerza la verificación del bloque anterior y, por lo ta
 El blockchain es inviolable, lo que le confiere la fuerza clave de la inmutabilidad. 
 Se elimina la posibilidad de manipulación por parte de un actor malintencionado y se crea un libro de transacciones en el que usted y los demás miembros de la red pueden confiar.
 
+
+##¿Qué es un Altcoin?
+
+Un altcoin es una criptomoneda alternativa a las tradicionales y más populares, es decir, el bitcoin, litecoin​ y ethereum. 
+Actualmente, están en aumento debido a la volatilidad del mercado de criptomonedas, que conlleva muchos riesgos. 
+Con un altcoin las transacciones son muchos más rápidas, suele ser menos volátil en general que el bitcoin y se podría decir que tiene un nivel más alto de estabilidad. 
+Además, las criptomonedas alternativas tienen una influencia en el proceso y alcance del blockchain.
+
+
+//Monero
+
+El objetivo principal del blockchain Monero es la confidencialidad y la imposibilidad de rastrear las transacciones. 
+Muchas criptomonedas (incluyendo el bitcoin) tienen blockchains transparentes, que significa que todas las transacciones, incluidas las de envío y recepción, pueden ser rastreadas y potencialmente conectadas a identidades del mundo real. 
+Monero usa la criptografía para ocultar las direcciones de envío y recepción, así como los importes de las transacciones.
+Monero usa un mecanismo de prueba de trabajo que emite nuevas monedas e incentiva a los mineros a afianzar la red y validar las transacciones.
+
+
+
+
+//Monedas vs Tokens: Diferencias clave
+
+La principal diferencia entre las monedas y los tokens radica en su estructura y propósito. Las monedas operan en su propia blockchain y su función principal es actuar como medio de intercambio. 
+Son similares a las formas digitales de intercambio de valor y a menudo se utilizan para pagar transacciones dentro de su respectiva red blockchain.
+Los tokens, sin embargo, operan en redes blockchain existentes y buscan ofrecer un rango más amplio de funcionalidades. 
+A menudo se asocian con un proyecto o protocolo específico dentro del ecosistema blockchain y se utilizan para acceder a ciertas características de ese proyecto.
+En términos de creación, los tokens son más fáciles de crear que las monedas. 
+Crear una moneda requiere construir una nueva blockchain, lo que requiere tiempo y experiencia. 
+Sin embargo, los tokens pueden crearse en una blockchain existente, lo que hace el proceso más sencillo y accesible.
