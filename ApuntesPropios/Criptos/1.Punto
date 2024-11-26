@@ -1,10 +1,14 @@
+( Blockchain )( 6 )
+( Bitcoin y Altcoins )( 47 )
+( Tokens vs Monedas )( 68 )
+( Criptografía y Descentralización )( 79 )
+
 ##Blockchain
 
 -Es un libro de contabilidad compartido e inmutable que facilita el proceso de registro de transacciones y seguimiento de activos en una red empresarial.
 
 
 ##Elementos clave de un blockchain
-
 
 //Tecnología de contabilidad distribuida
 Todos los participantes de la red tienen acceso al libro de contabilidad distribuido y a su registro inmutable de transacciones. 
@@ -40,6 +44,11 @@ El blockchain es inviolable, lo que le confiere la fuerza clave de la inmutabili
 Se elimina la posibilidad de manipulación por parte de un actor malintencionado y se crea un libro de transacciones en el que usted y los demás miembros de la red pueden confiar.
 
 
+##Bitcoin
+
+Bitcoin o Bitcóin es una criptomoneda descentralizada y un sistema de pago que no requiere de banco central o administrador único para su funcionamiento,4​5​ ya que opera mediante una red de nodos peer to peer que verifican las transacciones mediante criptografía y las registran en un libro de contabilidad público llamado cadena de bloques.
+
+
 ##¿Qué es un Altcoin?
 
 Un altcoin es una criptomoneda alternativa a las tradicionales y más populares, es decir, el bitcoin, litecoin​ y ethereum. 
@@ -56,9 +65,7 @@ Monero usa la criptografía para ocultar las direcciones de envío y recepción,
 Monero usa un mecanismo de prueba de trabajo que emite nuevas monedas e incentiva a los mineros a afianzar la red y validar las transacciones.
 
 
-
-
-//Monedas vs Tokens: Diferencias clave
+##Monedas vs Tokens: Diferencias clave
 
 La principal diferencia entre las monedas y los tokens radica en su estructura y propósito. Las monedas operan en su propia blockchain y su función principal es actuar como medio de intercambio. 
 Son similares a las formas digitales de intercambio de valor y a menudo se utilizan para pagar transacciones dentro de su respectiva red blockchain.
@@ -67,3 +74,42 @@ A menudo se asocian con un proyecto o protocolo específico dentro del ecosistem
 En términos de creación, los tokens son más fáciles de crear que las monedas. 
 Crear una moneda requiere construir una nueva blockchain, lo que requiere tiempo y experiencia. 
 Sin embargo, los tokens pueden crearse en una blockchain existente, lo que hace el proceso más sencillo y accesible.
+
+
+##¿Qué es la criptografía?
+
+La criptografía es una práctica que consiste en proteger información mediante el uso de algoritmos codificados, hashes y firmas.
+
+Cuatro objetivos principales:
+
+Confidencialidad: poner la información únicamente a disposición de usuarios autorizados.
+Integridad: asegurar que la información no se ha manipulado.
+Autenticación: confirmar la autenticidad de la información o de la identidad de un usuario.
+No repudio: evitar que un usuario deniegue compromisos o acciones previas.
+
+
+//¿Qué es la criptografía de clave simétrica?
+
+Los algoritmos criptográficos de clave simétrica utilizan las mismas claves criptográficas tanto para el cifrado del texto plano como para el descifrado del texto cifrado. 
+El cifrado simétrico requiere que todos los destinatarios del mensaje tengan acceso a una clave compartida.
+
+
+//¿Qué es la criptografía asimétrica (de clave pública)?
+
+La criptografía asimétrica (o de clave pública) consiste en un amplio conjunto de algoritmos. 
+Estos se basan en problemas matemáticos que son relativamente fáciles de hacer en una dirección, pero que no se pueden invertir fácilmente.
+
+
+//¿Qué es el cifrado híbrido?
+
+Para utilizar el cifrado simétrico, las partes deben compartir una clave. 
+Aunque esta clave podría enviarse a través de un canal cifrado existente, no necesitaríamos una nueva clave si ya tuviéramos un canal seguro. 
+En su lugar, resolvemos el problema del intercambio de claves mediante la criptografía de clave pública.
+
+Metodos comunes para intercambiar claves simetricas:
+
+Cifrado asimétrico. Una de las partes genera una clave simétrica y la cifra mediante un algoritmo como RSA-OAEP con la clave pública de otra parte. 
+El destinatario puede descifrar el texto cifrado con su clave privada para recuperar la clave simétrica.
+
+Intercambio de claves Diffie-Hellman: (DH). Diffie-Hellman es un tipo diferente de algoritmo criptográfico de clave pública diseñado específicamente para ayudar a las partes a acordar una clave simétrica en ausencia de un canal seguro. 
+Diffie-Hellman se basa en un problema matemático diferente al de la función RSA y es menos flexible que esta. Sin embargo, tiene estructuras más eficientes, lo que lo hace más recomendable en algunos casos de uso.
