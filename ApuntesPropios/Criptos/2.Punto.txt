@@ -1,0 +1,62 @@
+( Hot Wallets )( 12 )
+( Caracteristicas de las Hot Wallets )( 16 )
+( Cold Wallets )( 25 )
+( Caracteristicas de las Cold Wallets )( 34 )
+( Frases semilla )( 47 )
+( El Estándar BIP39 )( 53 )
+( Autenticación 2FA )( 59 )
+
+##Wallets y Seguridad
+
+
+//Hot Wallets
+
+Una Hot Wallet, es un término empleado para hacer referencia a aquellas wallets o monederos de criptomonedas que almacenan las claves privadas en lugares que siempre están conectados a Internet.
+
+//Caracteristicas de las Hot Wallets
+
+Conectadas constantemente a la blockchain y a Internet.
+Pueden ser de dos tipos: un servicio web que facilite el acceso a las criptomonedas o un software de descarga gratuita para el ordenador o smartphone.
+En caso de que sean monederos donde tú gestionas las claves, deberás preocuparte tú mismo por la seguridad.
+Generalmente son monederos gratuitos.
+Son más propensas a sufrir de ataques informáticos. Esto se debe a que están conectadas a Internet todo el tiempo y por ello, mantienen un nivel de riesgo más alto de robos y piratería.
+
+
+//Cold Wallets
+
+Cuando hablamos de seguridad para nuestros fondos de criptomonedas, la mejor opción es elegir entre las cold wallets o monederos fríos. 
+Son la unión perfecta entre funcionalidad y seguridad en todo momento y, permiten tener la tranquilidad de que los fondos difícilmente puedan ser robados.
+
+Las cold wallets son aquellas que utilizan claves generadas por una fuente que no está conectada a la blockchain y por tanto, tampoco a Internet. 
+Por eso se denominan monederos en frío.
+
+
+//Caracteristicas de las Cold Wallets
+
+Al no mantenerse en línea con las redes blockchain e Internet, ofrecen protección y seguridad contra los malwares y otros software maliciosos.
+Nos permiten almacenar grandes cantidades de dinero de manera segura y eficiente.
+No requieren de terceros para el manejo de las claves y gestión de las criptomonedas; como sí ocurre con las wallets online.
+Poseen medios de comunicación limitados para maximizar la seguridad que ofrecen.
+Generalmente, permiten añadir una capa de seguridad extra por medio de la configuración de PIN a elección, impide que un tercero haga uso del dispositivo.
+Las claves son generadas y mantenidas dentro del mismo dispositivo en el que se usa la wallet. Nunca salen del dispositivo, por lo que se mantienen seguras y protegidas.
+Son compatibles con la mayoría de los sistemas operativos disponibles.
+Tienen la capacidad de generar una semilla que nos permite restaurar las claves y recuperar los fondos.
+En el caso de las paper wallets, no son factibles a la ruptura o daño del equipo como sí ocurre con otros tipos de cold wallets, como por ejemplo, las hardware wallets.
+
+
+//Frases semilla
+
+Las frases semilla son generadas por las billeteras de criptomonedas y son cruciales para la seguridad de los activos digitales.
+Es esencial mantener una frase semilla segura y privada, ya que puede ser utilizada para recuperar el acceso a una billetera de criptomonedas.
+
+
+//El Estándar BIP39
+
+Es un protocolo que describe cómo las carteras de criptomonedas generan una cadena de palabras para crear una frase mnemotécnica. 
+Esta frase se convierte luego en una semilla binaria, que produce un conjunto de claves que cifran y descifran las transacciones de criptomonedas. 
+En esencia, el diseño BIP39 tiene como objetivo convertir la frase en una semilla binaria, con la intención de proporcionar una capa adicional de seguridad para los activos digitales.
+
+//Autenticación 2FA
+
+Es un método de seguridad de administración de identidad y acceso que requiere dos formas de identificación para acceder a los recursos y los datos. 
+2FA ofrece a las empresas la posibilidad de supervisar y ayudar a proteger su información y sus redes más vulnerables.

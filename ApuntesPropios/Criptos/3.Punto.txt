@@ -1,0 +1,113 @@
+
+
+##Investigacion de Proyectos
+
+
+//Whitepaper
+
+Un Whitepaper de criptomonedas permite a los proyectos explicar sus productos y objetivos al público. 
+Los proyectos pueden elegir libremente qué tipo de información desean incluir. 
+Por lo general, incluyen una descripción general de los objetivos, las tokenomics, los productos, las características e información sobre el equipo.
+
+//Que problemas resuelven las distintas criptomonedas?
+
+//1. Bitcoin (BTC)
+
+Creación de un sistema de dinero digital descentralizado que funcione como reserva de valor y medio de intercambio sin necesidad de intermediarios (como bancos). 
+
+Características clave:
+
+Descentralización: Nadie lo controla.
+Seguridad: Utiliza el mecanismo de consenso Proof of Work (PoW).
+Suministro limitado: Máximo de 21 millones de BTC, diseñado para ser deflacionario. 
+
+Casos de uso:
+
+Reserva de valor similar al "oro digital".
+Pagos transfronterizos.
+
+//2. Ethereum (ETH)
+
+Permite la creación de contratos inteligentes y aplicaciones descentralizadas (dApps), ofreciendo una plataforma para programar y ejecutar transacciones sin confianza entre las partes. 
+Características clave:
+Contratos inteligentes: Programas que se ejecutan automáticamente al cumplirse ciertas condiciones.
+Ecosistema DeFi: Finanzas descentralizadas (préstamos, exchanges descentralizados, etc.).
+NFTs: Base para tokens no fungibles y economías digitales creativas. Casos de uso:
+Finanzas descentralizadas (DeFi).
+Mercados de NFT como OpenSea.
+Juegos blockchain y metaversos (e.g., Axie Infinity).
+
+3. Binance Coin (BNB)
+
+Reduce costos en el ecosistema Binance y permite acceso a proyectos dentro de su red. Características clave:
+Descuentos en tarifas de trading en el exchange Binance.
+Base para aplicaciones y proyectos en la Binance Smart Chain (BSC).
+Adopción como medio de pago en varias plataformas. Casos de uso:
+Trading más económico.
+Financiar y participar en proyectos DeFi y NFT en la Binance Smart Chain.
+
+4. Cardano (ADA)
+
+Crear una blockchain sostenible y escalable que integre funciones avanzadas de contratos inteligentes. Características clave:
+Mecanismo de consenso Proof of Stake (PoS) eficiente en energía.
+Enfoque en seguridad académicamente revisada y diseño modular.
+Soluciones para sistemas financieros en regiones en desarrollo. Casos de uso:
+Contratos inteligentes y dApps, similar a Ethereum pero con mayor énfasis en escalabilidad.
+Identidad digital y autenticación en economías emergentes.
+
+5. Solana (SOL)
+
+Proporciona una blockchain de alta velocidad y bajo costo para aplicaciones descentralizadas. Características clave:
+Alta escalabilidad: Procesa miles de transacciones por segundo.
+Bajos costos de transacción.
+Adopción rápida en NFTs y DeFi. Casos de uso:
+Juegos blockchain.
+Finanzas descentralizadas con alta velocidad.
+Mercados de NFTs.
+
+6. Ripple (XRP)
+
+Facilita pagos internacionales rápidos y baratos, particularmente para bancos y empresas financieras. Características clave:
+Transacciones casi instantáneas y de bajo costo.
+Adopción por instituciones financieras.
+Centralización parcial para mantener mayor control. Casos de uso:
+Pagos transfronterizos para bancos y empresas.
+Remesas internacionales.
+
+7. Polkadot (DOT)
+
+Conectar diferentes blockchains para que puedan interoperar entre sí. Características clave:
+Interoperabilidad: Permite que blockchains independientes compartan información y trabajen juntas.
+Escalabilidad mediante "parachains". Casos de uso:
+Redes específicas para proyectos descentralizados que necesitan interoperabilidad.
+Plataformas multichain.
+
+8. Avalanche (AVAX)
+
+Creación de aplicaciones descentralizadas con alta velocidad y flexibilidad. Características clave:
+Subnets: Permite a los desarrolladores crear sus propias blockchains personalizadas.
+Bajos costos y escalabilidad. Casos de uso:
+Finanzas descentralizadas y aplicaciones empresariales.
+
+9. Chainlink (LINK)
+
+Conecta los contratos inteligentes con datos del mundo real de manera confiable y segura. Características clave:
+Oráculos descentralizados: Alimenta los contratos inteligentes con datos externos como precios de mercado, clima, etc.
+Compatible con múltiples blockchains. Casos de uso:
+Finanzas descentralizadas.
+Aplicaciones basadas en datos externos.
+
+10. Litecoin (LTC)
+
+Proporciona una alternativa más rápida y ligera a Bitcoin para transacciones diarias. Características clave:
+Mayor velocidad de confirmación de bloques.
+Basado en el código de Bitcoin con ajustes para mayor eficiencia. Casos de uso:
+Pagos más rápidos y baratos que Bitcoin.
+
+11. Monero (XMR)
+
+Garantiza la privacidad total en las transacciones. Características clave:
+Transacciones anónimas y no rastreables.
+Enfoque en privacidad y seguridad. Casos de uso:
+Pagos privados y seguros.
+Uso en sistemas donde la confidencialidad es clave.
