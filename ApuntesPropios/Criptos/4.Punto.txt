@@ -1,0 +1,33 @@
+
+
+##Conceptos Financieros Básicos:
+
+
+//Exchange (Binance, Coinbase, Kraken).
+
+El nombre de exchange de criptomonedas o intercambio de criptomonedas, hace mención a un espacio generalmente virtual, en el que se realizan acciones de compra-venta de criptomonedas
+
+Kraken, Coinbase y Binance son tres de las plataformas de intercambio de criptomonedas más utilizadas y de mayor reputación del mundo. 
+Cada plataforma ofrece un conjunto único de funciones y servicios para ayudar a los usuarios a comprar, vender y almacenar sus activos digitales.
+
+//Spot, futuros y staking.
+
+El Spot Trading de Criptomonedas es el proceso de comprar y vender criptomonedas a precios en tiempo real con el objetivo de generar una ganancia comercial.
+
+Los contrato de futuros, son acuerdos de compra/venta por un precio fijado previamente y en una fecha determinada.
+
+La definición original de staking describe un proceso para mantener la operación de una red blockchain. 
+Las personas participan en la validación de transacciones en una red blockchain manteniendo y bloqueando cierta cantidad de la criptomoneda de esa blockchain en una billetera.
+
+//Riesgos de volatilidad.
+
+En términos financieros, la volatilidad se refiere a la tasa a la cual el precio de un activo aumenta o disminuye para un conjunto de rendimientos. 
+En términos más simples, es la medida de la rapidez y la magnitud de los cambios de precio en cualquier mercado, ya sea para un conjunto particular de acciones, todo el mercado de valores o las criptomonedas.
+
+Estrategias de Inversión:
+Dollar-Cost Averaging (DCA): Inversiones periódicas pequeñas.
+Diversificación: No pongas todo en una sola criptomoneda.
+Aprender análisis técnico (gráficos y tendencias) y análisis fundamental.
+Herramientas Útiles:
+CoinMarketCap o CoinGecko para seguimiento de precios y datos de mercado.
+

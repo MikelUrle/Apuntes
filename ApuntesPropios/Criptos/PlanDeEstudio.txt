@@ -19,7 +19,6 @@ Autenticación 2FA.
 3. Investigación de Proyectos
 Whitepapers: Analiza documentos técnicos para entender la utilidad del proyecto.
 Casos de Uso: ¿Qué problema resuelve esta criptomoneda o token? Ejemplos: Ethereum (contratos inteligentes), Chainlink (oráculos), etc.
-Equipo y Comunidad: Evalúa quiénes están detrás y la calidad de su comunidad.
 
 4. Trading e Inversiones
 Conceptos Financieros Básicos:
