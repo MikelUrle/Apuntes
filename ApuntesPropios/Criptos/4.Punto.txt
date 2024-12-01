@@ -24,10 +24,83 @@ Las personas participan en la validación de transacciones en una red blockchain
 En términos financieros, la volatilidad se refiere a la tasa a la cual el precio de un activo aumenta o disminuye para un conjunto de rendimientos. 
 En términos más simples, es la medida de la rapidez y la magnitud de los cambios de precio en cualquier mercado, ya sea para un conjunto particular de acciones, todo el mercado de valores o las criptomonedas.
 
-Estrategias de Inversión:
-Dollar-Cost Averaging (DCA): Inversiones periódicas pequeñas.
+//Estrategias de Inversión:
+
+Dollar-Cost Averaging (DCA) es una estrategia de inversión que consiste en invertir cantidades fijas de dinero en un activo específico, a intervalos regulares, sin importar el precio del activo en ese momento. 
+Esta técnica es particularmente popular entre los inversionistas que desean minimizar los riesgos asociados con la volatilidad del mercado.
+
 Diversificación: No pongas todo en una sola criptomoneda.
+
 Aprender análisis técnico (gráficos y tendencias) y análisis fundamental.
+
+Entender los conceptos básicos:
+
+Gráficos:
+
+Tipos de gráficos: lineales, de velas japonesas, barras, etc.
+
+Soportes y resistencias:
+
+Soporte: nivel donde el precio tiende a detener su caída.
+Resistencia: nivel donde el precio tiende a detener su subida.
+
+Tendencias:
+
+Tendencia alcista: precios suben.
+Tendencia bajista: precios bajan.
+Tendencia lateral: precios fluctúan en un rango estrecho.
+
+Medias móviles (SMA y EMA):
+Ayudan a identificar tendencias suavizando las fluctuaciones de precios.
+
+Índice de fuerza relativa (RSI):
+Mide la fuerza del movimiento de precios para identificar sobrecompra o sobreventa.
+
+Bollinger Bands:
+Identifican niveles de volatilidad.
+
+MACD (Moving Average Convergence Divergence):
+Muestra la relación entre dos medias móviles para detectar cambios en la fuerza y dirección de la tendencia.
+
+//Comprender los conceptos básicos:
+
+Macro y microeconomía:
+Factores macroeconómicos como tasas de interés, inflación y PIB.
+Factores microeconómicos como el desempeño de la empresa o el proyecto.
+
+
+
+
+Aplicado a criptomonedas:
+
+Equipo y proyecto:
+Investiga los desarrolladores, la visión y los casos de uso de la criptomoneda.
+Tokenomics:
+Análisis del suministro total, emisión, y quema de tokens.
+Adopción y comunidad:
+Nivel de adopción del proyecto y el apoyo de su comunidad.
+Competencia:
+¿Qué diferencia al activo frente a proyectos similares?
+Evaluar factores clave:
+
+Acciones:
+Relación precio-beneficio (P/E), dividendos, participación en el mercado.
+Criptomonedas:
+Transacciones diarias, valor total bloqueado (TVL), volumen de intercambio.
+Fuentes de datos fundamentales:
+
+Acciones: Yahoo Finance, Bloomberg, Morningstar.
+Criptomonedas: CoinGecko, CoinMarketCap, Glassnode.
+Comparar con su precio actual:
+
+Determina si el activo está sobrevalorado o subvalorado en función de su valor intrínseco.
+
+
+
+
+Estados financieros (para acciones):
+Ingresos, gastos, ganancias, deuda, flujo de caja, etc.
+
 Herramientas Útiles:
 CoinMarketCap o CoinGecko para seguimiento de precios y datos de mercado.
 
