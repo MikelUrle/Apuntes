@@ -1,0 +1,38 @@
+pinMode(variable, OUTPUT/INPUT)
+- Para saber que pin dara entrada o salida a la señal del led
+
+digitalWrite(variable, HIGH/LOW)
+- Para darle un valor 1 o 0
+
+delay(1000) //milisegundos (1 segundo)
+- Sirve para dar un delay o tiempo de espera en el codigo
+
+Link de prueba Wokwi
+https://wokwi.com/projects/341776914153734739
+
+
+ledcSetup(canal, frecuencia, resolucion);
+- Sirve para inicializar las caracteristicas del pwm (led)
+
+ledcAttachPin(pinLed, OUTPUT/INPUT);
+- Para saber que pin dara entrada o salida a la señal al pwm
+
+Link de prueba Wokwi
+https://wokwi.com/projects/342126250860479060
+
+Serial.begin(9600);
+- Este comando configura el puerto serial para que el microcontrolador pueda enviar y recibir datos a través de UART (Universal Asynchronous Receiver-Transmitter).
+- Velocidad de transmisión (baudios): El número 9600 representa la tasa de baudios, es decir, la cantidad de bits por segundo que se transmitirán a través del puerto serie.
+
+analogRead(pinPot); (igualar a una variable)
+- Para obtener la señal del potenciometro
+
+Serial.println(variable);
+- Para enseñar por pantalla el valor de la variable
+
+ledcWrite(pinLed, variable);
+analogWrite(pinLed, variable);
+- Para dar el valor de la variable a puerto
+- De normal funciona con el primero
+
+ 

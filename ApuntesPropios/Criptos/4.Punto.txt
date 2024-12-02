@@ -68,25 +68,97 @@ Macro y microeconomía:
 Factores macroeconómicos como tasas de interés, inflación y PIB.
 Factores microeconómicos como el desempeño de la empresa o el proyecto.
 
-
-
-
 Aplicado a criptomonedas:
 
-Equipo y proyecto:
-Investiga los desarrolladores, la visión y los casos de uso de la criptomoneda.
-Tokenomics:
-Análisis del suministro total, emisión, y quema de tokens.
-Adopción y comunidad:
-Nivel de adopción del proyecto y el apoyo de su comunidad.
-Competencia:
-¿Qué diferencia al activo frente a proyectos similares?
-Evaluar factores clave:
+//Suministro total, emisión, y quema de tokens.
 
-Acciones:
-Relación precio-beneficio (P/E), dividendos, participación en el mercado.
+1. Suministro Total de Bitcoin
+
+Suministro máximo:
+
+Bitcoin tiene un suministro máximo fijo de 21 millones de monedas. 
+Este límite está codificado en su protocolo y no puede ser alterado sin un consenso casi unánime entre los participantes de la red.
+Esta característica lo hace deflacionario, ya que no se pueden crear más monedas, a diferencia del dinero fiduciario.
+
+Importancia del suministro fijo:
+
+Evita la inflación descontrolada porque no se pueden emitir monedas adicionales.
+Proporciona escasez digital, lo que fomenta el aumento de valor a medida que la demanda crece y el suministro no puede ajustarse.
+
+2. Emisión de Bitcoin
+
+Método de emisión:
+
+Bitcoin se emite a través de un proceso llamado minería, donde los mineros compiten para resolver problemas matemáticos complejos y, a cambio, reciben BTC como recompensa.
+
+Halving:
+
+Cada 210,000 bloques (aproximadamente cada 4 años), la recompensa por bloque se reduce a la mitad, en un evento conocido como halving.
+Ejemplo de recompensas históricas:
+Bloque génesis (2009): 50 BTC por bloque.
+Primer halving (2012): 25 BTC por bloque.
+Segundo halving (2016): 12.5 BTC por bloque.
+Tercer halving (2020): 6.25 BTC por bloque (actual).
+Cuarto halving (previsto para 2024): 3.125 BTC por bloque.
+Emisión finita:
+
+El último Bitcoin se minará alrededor del año 2140, momento en el cual se alcanzará el suministro máximo de 21 millones de monedas.
+Tasa decreciente de emisión:
+
+La reducción progresiva de las recompensas hace que Bitcoin sea cada vez más escaso con el tiempo, lo que fortalece su narrativa de reserva de valor.
+
+3. Quema de Tokens en Bitcoin
+
+Bitcoin no utiliza quema de tokens como parte de su diseño.
+
+La quema de tokens implica destruir una parte del suministro de una criptomoneda para reducir la oferta circulante, aumentando así el valor de las monedas restantes.
+En el caso de Bitcoin, su modelo ya está diseñado para garantizar la escasez sin necesidad de quema activa.
+
+Pérdida de BTC:
+
+Aunque no se queman de manera intencional, se estima que una parte significativa de los Bitcoin ya emitidos están perdidos para siempre debido a:
+
+Llaves privadas extraviadas.
+Monederos inaccesibles.
+Ejemplo famoso: las monedas minadas por el creador de Bitcoin, Satoshi Nakamoto, que se cree que no se moverán.
+Impacto de las pérdidas:
+
+Estas pérdidas accidentales actúan de manera similar a una quema, ya que reducen el suministro circulante efectivo, incrementando la escasez.
+
+4. Suministro Circulante Actual
+
+Cantidad en circulación:
+
+A noviembre de 2024, hay aproximadamente 19.8 millones de BTC en circulación.
+Esto significa que casi el 94% del suministro total ya se ha emitido.
+
+Suministro accesible vs. perdido:
+
+Aunque esta es la cantidad técnicamente emitida, una proporción significativa está perdida. 
+Algunos estudios estiman que entre el 20% y el 25% de los Bitcoin ya no se pueden recuperar.
+
+1. Relación Precio-Beneficio (P/E)
+La relación P/E mide cuánto están dispuestos a pagar los inversionistas por cada dólar de beneficio que genera una empresa.
+
+2. Dividendos
+Los dividendos son la parte de las ganancias de una empresa que se distribuye a los accionistas. 
+Son una forma de obtener rentabilidad adicional, además de las posibles ganancias por el aumento en el precio de la acción.
+
+3. Participación en el Mercado
+La participación en el mercado indica qué tan grande es una empresa dentro de su industria, en términos de ingresos o unidades vendidas.
+
 Criptomonedas:
 Transacciones diarias, valor total bloqueado (TVL), volumen de intercambio.
+
+1. Transacciones Diarias
+Las transacciones diarias se refieren al número de transacciones confirmadas en la red de una criptomoneda en un período de 24 horas.
+
+2. Valor Total Bloqueado (TVL)
+El Valor Total Bloqueado (Total Value Locked, TVL) mide el valor total de los activos depositados en protocolos descentralizados (DeFi) como préstamos, staking, y yield farming.
+
+3. Volumen de Intercambio
+El volumen de intercambio se refiere al valor total de una criptomoneda que se ha negociado en un período determinado (generalmente 24 horas).
+
 Fuentes de datos fundamentales:
 
 Acciones: Yahoo Finance, Bloomberg, Morningstar.
