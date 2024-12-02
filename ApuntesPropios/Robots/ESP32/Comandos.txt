@@ -38,4 +38,6 @@ analogWrite(pinLed, variable);
 Pulsador
 https://wokwi.com/projects/342233519153480276
 
+delayMicroseconds(2);
+- Para retrasar la emision
  
