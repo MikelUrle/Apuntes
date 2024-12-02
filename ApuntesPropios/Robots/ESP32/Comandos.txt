@@ -35,4 +35,7 @@ analogWrite(pinLed, variable);
 - Para dar el valor de la variable a puerto
 - De normal funciona con el primero
 
+Pulsador
+https://wokwi.com/projects/342233519153480276
+
  

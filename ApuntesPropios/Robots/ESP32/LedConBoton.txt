@@ -1,0 +1,32 @@
+https://wokwi.com/projects/342233519153480276
+
+// Declaramos el pin al que estará conectado el pulsador
+int pinPulsador=4;
+
+// Declaramos el pin al que estará conectado el led
+int pinLed=2;
+
+void setup()
+{
+  //Determinamos que el pin del pulsador sera para recibir 
+  pinMode(pinPulsador, INPUT);
+
+  //Determinamos que el pin del led sera para salir
+  pinMode(pinLed, OUTPUT);
+}
+
+void loop()
+{
+  //Si la señal del pulsador es activa encendemos el led
+
+  if (digitalRead(pinPulsador) == HIGH) {
+    digitalWrite(pinLed, HIGH);
+  } 
+
+  //de lo contrario apagamos el led
+  else {
+    digitalWrite(pinLed, LOW);
+  }
+
+  delay(10);
+}

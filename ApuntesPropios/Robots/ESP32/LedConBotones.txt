@@ -1,0 +1,97 @@
+//Variable que cuenta la cantidad de veces que se ha precionado el pulsador 1
+int CONTADOR1 = 0;
+
+//Variable que cuenta la cantidad de veces que se ha precionado el pulsador 2
+int CONTADOR2 = 0;
+
+//Definimos el pin del pulsador 1
+int pinPulsador1=4;
+
+//Definimos el pin del pulsador 1
+int pinPulsador2=5;
+
+//Definimos el pin del led
+int pinLed=2;
+
+void setup()
+{
+  //Inicializamos el pin del puñzador 1 como salida
+  pinMode(pinPulsador1, INPUT);
+
+  //Inicializamos el pin del puñzador 2 como salida
+  pinMode(pinPulsador2, INPUT);
+
+  //Inicializamos el pin del led como salida
+  pinMode(pinLed, OUTPUT);
+
+  //Iniciamos la velocidad en 9600 baudios
+  Serial.begin(9600);
+
+}
+void loop()
+{
+  //Si se precionamos el pulsador 1 
+
+  if (digitalRead(pinPulsador1) == HIGH) {
+
+    //Incrementamos el contador1 en 1
+    CONTADOR1 += 1;
+    
+    //Encendemos el led
+    digitalWrite(pinLed, HIGH);
+
+    //Esperamos 200 milisegundos
+    delay(200);
+
+    //Apagamos el led
+    digitalWrite(pinLed, LOW);
+  }
+
+  //Si se precionamos el pulsador 2
+
+  if (digitalRead(pinPulsador2) == HIGH) {
+
+    //Incrementamos el contador2 en 1
+    CONTADOR2 += 1;
+
+    //Encendemos el led
+    digitalWrite(pinLed, HIGH);
+
+    //Esperamos 200 milisegundos
+    delay(200);
+
+    //Apagamos el led
+    digitalWrite(pinLed, LOW);
+  }
+
+  mostrar();
+
+  if (CONTADOR1 == 2 && CONTADOR2 == 2) {
+
+    digitalWrite(pinLed, HIGH);
+
+  } else {
+
+    digitalWrite(pinLed, LOW);
+
+  }
+
+  if (CONTADOR1 > 2) {
+    CONTADOR1 = 0;
+  }
+
+  if (CONTADOR2 > 2) {
+    CONTADOR2 = 0;
+  }
+  
+  delay(100);
+}
+
+void mostrar(){
+
+  Serial.print("CONTADOR1:");
+  Serial.println(CONTADOR1);
+  Serial.print("CONTADOR2:");
+  Serial.println(CONTADOR2);
+
+}
