@@ -40,4 +40,12 @@ https://wokwi.com/projects/342233519153480276
 
 delayMicroseconds(2);
 - Para retrasar la emision
- 
+
+#include <ESP32Servo.h>
+- Para agregar librerias (en este caso el del servomotor)
+
+Servo servo;
+- Para instanciar el servo (inicializar el objeto)
+
+servo.attach(pinServo, 500, 2500);
+- Para inicialiar la posicion del servomotor

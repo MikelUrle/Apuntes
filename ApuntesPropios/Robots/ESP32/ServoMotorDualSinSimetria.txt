@@ -1,0 +1,86 @@
+/*
+
+Mira el tutorial en 
+Programador Novato: https://www.programadornovato.com/mover-2-servos-de-forma-independiente-con-esp32/
+Youtube: https://www.youtube.com/watch?v=WXW66GXTC9M&list=PLCTD_CpMeEKTvjzabAvLGHakg-ql6t0q6&index=12
+
+Ahora que ya hemos movido 2 servos de forma simultánea, 
+vamos a Mover 2 servos de forma independiente con ESP32. 
+Esto lo vamos a lograr calculando el tiempo en milisegundos 
+para el servo1 y usando delay con el servo2.
+
+*/
+
+//Incluimos las libreias del servo
+#include <ESP32Servo.h>
+
+//Instanciamos los dos servos
+Servo servo_1;
+Servo servo_2;
+
+void setup()
+{
+  //Configuramos los servos a sis respectivos pines y sus tiempos
+  servo_1.attach(2, 500, 2500);
+  servo_2.attach(4, 500, 2500);
+
+  //Movemos los dos servos a 0 grados
+  servo_1.write(0);
+  servo_2.write(0);
+
+}
+//Inicializamos los milisegundos del tiempo inicial a esperar
+long previoMiliseg=0;
+
+//Inicializamos el teimpo a esperar
+long intervaluo=50;
+
+//Inicializamos la direccion 
+//1 = derecha (aumenta de 0 a 180) 
+//-0 = izquierda (baja de 180 a 0)
+int direccion=1;
+
+//Inicializamos la posicion en 0 grados
+int pos;
+
+void loop()
+{
+  //Este momento
+  long actualMiliseg=millis();
+
+  //Si ya pasaron (intervaluo)100 milisegundos
+  if( actualMiliseg-previoMiliseg>=intervaluo ){
+
+    //Actualizamos este momento
+    previoMiliseg=actualMiliseg;
+
+    //Leemos la posicion del servo1
+    pos=servo_1.read();
+
+    //Si la posicion del servo1 es menor a 0 lo movemos a la derecha
+    if(pos<=0){
+      direccion=1;
+    }
+
+    //Si la posicion del servo1 es mayor a 180 lo movemos a la izquierda
+    if(pos>=180){
+      direccion=-1;
+    }
+
+    //Movemos el servo1 de 10 en 10 grados (ya sea a la izquierda o a la derecha)
+    pos=pos+(direccion*10);
+    servo_1.write(pos);
+
+  }
+
+  //Movemos el servo 2 a la izquierda y a la derecha de forma independiente al servo1
+  servo_2.write(90);
+
+  delay(1000);
+
+  servo_2.write(0);
+  
+  delay(1000);
+}
+
+

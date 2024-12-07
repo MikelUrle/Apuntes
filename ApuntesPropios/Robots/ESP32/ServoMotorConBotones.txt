@@ -1,0 +1,97 @@
+/*
+
+Mira el tutorial en 
+Programador Novato: https://www.programadornovato.com/girar-servo-en-esp32-con-dos-pulsadores/
+Youtube: https://www.youtube.com/watch?v=bav2VHqAjEM&list=PLCTD_CpMeEKTvjzabAvLGHakg-ql6t0q6&index=10
+
+En este tutorial haremos Girar servo en  ESP32 con dos pulsadores, 
+las reglas son estas 
+- Si presionamos el pulsador1 giramos el servomotor 180 grados 
+- Si presionamos el pulsador2 giramos el servomotor 0 grados. 
+
+*/
+
+#include <ESP32Servo.h>
+
+//Instanciamos el servomotor
+Servo servo;
+
+//Declaramos el pin del pulsador 1
+int pinPulsador1 = 4;
+
+//Declaramos el pin del pulsador 2
+int pinPulsador2 = 5;
+
+//Declaramos e pin del servo
+int pinServo = 2;
+
+void setup()
+{
+  Serial.begin(115200);
+
+  //Configuramos ESP32 para que resiba la pulsasiones del pulsador 1
+  pinMode(pinPulsador1, INPUT);
+
+  //Configuramos ESP32 para que resiba la pulsasiones del pulsador 2
+  pinMode(pinPulsador2, INPUT);
+
+  //Configuramos el servo
+  servo.attach(pinServo, 500, 2500);
+  
+}
+//Inicilizamos la posicion del servo
+int posServo = 0;
+
+void loop()
+{
+  //Si se preciona el pulsador1
+  if (digitalRead(pinPulsador1) == HIGH) {
+
+    //Movemos el servo 180 grados
+    //servo.write(180);
+    moverServo(180);
+
+    delay(1000);
+  }
+  //Si se preciona el pulsador1
+  if (digitalRead(pinPulsador2) == HIGH) {
+
+    //Movemos el servo 0 grados
+    //servo.write(0);
+    moverServo(0);
+
+    delay(1000);
+  }
+
+  delay(20);
+}
+
+//Funcion que mueve el servo
+void moverServo(int posFinal) {
+
+  if (posServo < posFinal) {
+    //Ciclo que posicionara el servo desde posServo hsta posFinal grados
+
+    for (int pos = posServo; pos <= posFinal; pos += 1) {
+
+      //Movemos el servo a los grados que le entreguemos
+      servo.write(pos);
+
+      //Esperamos 15 milisegundos
+      delay(15);
+    }
+  }
+
+  else {
+    //Ciclo que posicionara el servo desde posServo hsta posFinal grados
+
+    for (int pos = posFinal; pos >= posServo ; pos -= 1) {
+
+      //Movemos el servo a los grados que le entreguemos
+      servo.write(pos);
+      
+      //Esperamos 15 milisegundos
+      delay(15);
+    }
+  }
+}
