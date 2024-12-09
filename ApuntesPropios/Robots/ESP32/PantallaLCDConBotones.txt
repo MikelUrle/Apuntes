@@ -1,0 +1,46 @@
+//Agregamos ls librerias de cristal liquido
+#include <LiquidCrystal.h>
+
+//Inicializamos los pines conectados de la pantalla de cristal liquido al esp32
+LiquidCrystal lcd(22,23,5,18,19,21);
+
+//almacenamos el pin del pulsdor 1 y 2
+int pinPulsador1=2;
+int pinPulsador2=4;
+
+//Inicializamos el contador que incrementara o decrementara dependiendo del pulsador que se precione
+int CONTADOR=0;
+
+void setup() {
+  // Inicializamos el display de 16 x 2
+  lcd.begin(16, 2);
+
+  //Iniciamos los pulsadores 1 y 2
+  pinMode(pinPulsador1,INPUT);
+  pinMode(pinPulsador2,INPUT);
+
+}
+ 
+void loop() {
+
+  //Si se preciona el pulsador 1 aumentamos el contador en 1
+  if(digitalRead(pinPulsador1)==HIGH){
+    lcd.clear();
+    CONTADOR++;
+  }
+
+  //Si se preciona el pulsador 2 decrementamos el contador en 1
+  if(digitalRead(pinPulsador2)==HIGH){
+    lcd.clear();
+    CONTADOR--;
+  }
+
+  //Nos posicionamos el la parte inicial superior
+  lcd.setCursor(0,0);
+
+  //Mostramos el valor del contador
+  lcd.print("Contador=");
+  lcd.print(CONTADOR);
+  
+  delay(100);
+}

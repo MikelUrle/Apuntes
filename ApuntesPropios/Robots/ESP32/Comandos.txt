@@ -7,18 +7,11 @@ digitalWrite(variable, HIGH/LOW)
 delay(1000) //milisegundos (1 segundo)
 - Sirve para dar un delay o tiempo de espera en el codigo
 
-Link de prueba Wokwi
-https://wokwi.com/projects/341776914153734739
-
-
 ledcSetup(canal, frecuencia, resolucion);
 - Sirve para inicializar las caracteristicas del pwm (led)
 
 ledcAttachPin(pinLed, OUTPUT/INPUT);
 - Para saber que pin dara entrada o salida a la señal al pwm
-
-Link de prueba Wokwi
-https://wokwi.com/projects/342126250860479060
 
 Serial.begin(9600);
 - Este comando configura el puerto serial para que el microcontrolador pueda enviar y recibir datos a través de UART (Universal Asynchronous Receiver-Transmitter).
@@ -35,9 +28,6 @@ analogWrite(pinLed, variable);
 - Para dar el valor de la variable a puerto
 - De normal funciona con el primero
 
-Pulsador
-https://wokwi.com/projects/342233519153480276
-
 delayMicroseconds(2);
 - Para retrasar la emision
 
@@ -49,3 +39,12 @@ Servo servo;
 
 servo.attach(pinServo, 500, 2500);
 - Para inicialiar la posicion del servomotor
+
+LiquidCrystal lcd(22,23,5,18,19,21);
+- Para inicializar los pines de la pantalla
+
+lcd.clear();
+- Para limpiar el display
+
+lcd.setCursor(0,0);
+- Para colocarnos en la posicion que queramos

@@ -1,0 +1,68 @@
+/*
+
+Mira el tutorial en 
+Programador Novato: https://www.programadornovato.com/controlar-servo-con-potenciometro-en-esp32/
+Youtube: 
+
+Ya hemos movido 2 servos de formal independiente, 
+ahora vamos a controlar servo con potenciómetro en ESP32,
+ o sea que vamos a girar un potenciómetro y este va a girar
+ un servo.
+
+Requerimientos:
+- 1 Servomotor.
+- 1 Potenciómetro.
+- Cables.
+
+Controlar servo con potenciómetro en ESP32
+
+*/
+
+//Agregamos las librerias del servo
+#include <ESP32Servo.h>
+
+//Declaramos la variable que almacenara el valor analigico ingresara del potenciometro
+int entradaPotenciometro = 0;
+
+//Variable que movera el servo
+int anguloServo = 0;
+
+//Declaramos el servo
+Servo servo;
+
+//Declaramos la variable del pin del potenciometro
+int pinPotenciometro=2;
+
+//Declaramos la variable del pin del servo
+int pinServo=4;
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(115200);
+
+  //Configuramos el pin del potenciometro
+  pinMode(pinPotenciometro, INPUT);
+
+  //Configuramos el servo y su pin
+  servo.attach(pinServo, 500, 2500);
+}
+
+void loop() {
+  //Recibimos los datos analogicos del potenciometro
+  entradaPotenciometro = analogRead(pinPotenciometro);
+
+  //Obtenemos el anguloServo multiplicando entradaPotenciometro * (180/4095)
+  anguloServo = (entradaPotenciometro * 0.04395604395);
+
+  Serial.print("entradaPotenciometro:");
+  Serial.println(entradaPotenciometro);
+  Serial.print("anguloServo:");
+  Serial.println(anguloServo);
+  Serial.println("------------------");
+
+  //Movemos el servo este angulo
+  servo.write(anguloServo);
+
+  delay(10); // this speeds up the simulation
+  
+}
