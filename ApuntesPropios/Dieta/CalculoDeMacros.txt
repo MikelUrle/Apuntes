@@ -1,0 +1,56 @@
+##TMB
+
+- Tasa metabolica basal
+
+Hombres: BMR = 10 x peso (kg) + 6.25 x altura (cm) - 5 x edad (años) + 5
+Mujeres: BMR = 10 x peso (kg) + 6.25 x altura (cm) - 5 x edad (años) - 161
+
+
+##TDEE
+
+- Calorias necesarias al dia incluyendo la actividad fisica
+
+- Hay que multiplicar el TMB por una de las siguientes constantes que varia segun la actividad fisica
+
+Sedentario	1.2	Empleado de oficina haciendo poco o nada de ejercicio
+
+Ligero  1.375  (Ejercicio ligero)
+
+Moderadamente activo	1.55	
+Por ejemplo:
+
+• Persona con un trabajo sedentario que hace cardio / entrenar con pesas 1 hora al día
+
+• Persona con un trabajo que implica caminar durante las horas de trabajo y no hacer ejercicio fuera de su trabajo
+
+Muy activo	1.725	
+Por ejemplo:
+
+• Persona con un trabajo que implica actividad moderada durante aproximadamente 8 horas diarias
+
+• Persona con un trabajo sedentario que hace natación (o similar) 2 horas diarias
+
+• Persona con un trabajo sedentario que hace cardio y entrena con pesas 2 horas diarias
+
+Extremadamente activo	1.9	
+Por ejemplo:
+
+• Ciclista de competición (3-4 horas diarias, o deporte equivalente)
+
+• Persona con un trabajo que implica actividad moderada durante ~ 8 horas diarias que también hace cardio durante 1 hora diaria
+
+
+##Proteina
+
+2 gramos por peso corporal
+
+##Grasa
+
+30% del total de calorias diario
+
+##Carbohidratos
+
+Total de calorias - (Proteina*4) - (Grasa*9) = Total de Carbohidratos/4
+
+- Ya que cada gramos de proteina son 4 calorias, la grasa 9 y los carbohidratos 4
+
